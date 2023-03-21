@@ -14,6 +14,7 @@ export const NAVBAR_MENU = [
     id: 0,
     main: '대시보드',
     icon: <DashboardIcon />,
+    path: '/',
   },
   {
     id: 1,
@@ -134,5 +135,30 @@ export const NAVBAR_MENU = [
         path: [],
       },
     ],
+  },
+  {
+    id: 7,
+    main: '혜택',
+    icon: <LocalPlayIcon />,
+    sub: [
+      {
+        name: '쿠폰 관리',
+        path: [],
+      },
+      {
+        name: '등급 관리',
+        path: [],
+      },
+    ],
+  },
+  {
+    id: 8,
+    main: '통계',
+    icon: <LeaderboardIcon />,
+  },
+  {
+    id: 9,
+    main: '환경설정',
+    icon: <SettingsIcon />,
   },
 ]
