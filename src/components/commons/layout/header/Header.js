@@ -24,6 +24,6 @@ const HeaderContainer = styled.header`
   div {
     width: 40px;
     height: 40px;
-    border: 1px solid;
+    border: 1px solid gold;
   }
 `
